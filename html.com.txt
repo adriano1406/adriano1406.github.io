@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gleiciane Fofocas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="piscando">Gleiciane Fofocas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Fofocas</a></li>
+                    <li><a href="#">Publicidade</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="destaques">
+            <h2>Destaques</h2>
+            <article class="noticia-principal">
+                <h3>Desastre no Rio Grande do Sul</h3>
+                <img src="https://via.placeholder.com/728x400" alt="Imagem do desastre no Rio Grande do Sul">
+                <p>Um grave desastre natural atingiu o estado do Rio Grande do Sul, causando destruição e afetando milhares de pessoas. As autoridades locais estão trabalhando incansavelmente para fornecer ajuda e suporte às vítimas. Saiba mais sobre o ocorrido e como você pode ajudar.</p>
+                <a href="https://www.youtube.com/channel/UCSdvMWqIngSQfIiBblcyTrw" target="_blank">Leia mais...</a>
+            </article>
+            <div class="banner">
+                <img src="https://via.placeholder.com/728x90" alt="Banner 728x90">
+            </div>
+        </section>
+        <section class="colunas">
+            <h2>Últimas Fofocas</h2>
+            <!-- Novo artigo de fofoca -->
+            <article class="noticia-fofoca">
+                <h3>Ze Felipe é visto em situação inusitada!</h3>
+                <img src="https://via.placeholder.com/300x200" alt="Imagem de Ze Felipe">
+                <p>O cantor Ze Felipe foi flagrado em uma situação que está dando o que falar. Segundo fontes próximas, ele foi visto em um lugar inesperado e com uma companhia misteriosa. Confira todos os detalhes dessa fofoca quente!</p>
+                <a href="https://www.youtube.com/channel/UCSdvMWqIngSQfIiBblcyTrw" target="_blank">Leia mais...</a>
+            </article>
+            <!-- Banner de publicidade -->
+            <div class="banner">
+                <img src="https://via.placeholder.com/300x250" alt="Banner 300x250">
+            </div>
+        </section>
+        <aside class="publicidade">
+            <h2>Publicidade</h2>
+            <!-- Espaços publicitários -->
+            <div class="banner">
+                <img src="https://via.placeholder.com/160x600" alt="Banner 160x600">
+            </div>
+            <div class="banner">
+                <img src="https://via.placeholder.com/160x600" alt="Banner 160x600">
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gleiciane Fofocas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

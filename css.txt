@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff4081;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.destaques, .colunas {
+    flex: 3;
+    margin-right: 2rem;
+}
+
+.publicidade {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Animação de piscar */
+@keyframes piscar {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
+
+.piscando {
+    animation: piscar 1s infinite;
+}
+
+/* Estilos para banners de publicidade */
+.banner {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para a notícia principal */
+.noticia-principal {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.noticia-principal img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.noticia-principal h3 {
+    color: #ff4081;
+    margin-bottom: 1rem;
+}
+
+.noticia-principal p {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.noticia-principal a {
+    display: inline-block;
+    background-color: #ff4081;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos para as notícias de fofoca */
+.noticia-fofoca {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.noticia-fofoca img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.noticia-fofoca h3 {
+    color: #ff4081;
+    margin-bottom: 1rem;
+}
+
+.noticia-fofoca p {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.noticia-fofoca a {
+    display: inline-block;
+    background-color: #ff4081;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
